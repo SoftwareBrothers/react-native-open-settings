@@ -25,7 +25,7 @@ android {
 
 dependencies {
   ...
-+ compile project(':react-native-open-settings')
++ implementation project(':react-native-open-settings')
 }
 ```
 
