@@ -12,8 +12,15 @@
 
 RCT_EXPORT_MODULE(RNOpenSettings);
 
-RCT_EXPORT_METHOD(openSettings) {
+RCT_EXPORT_METHOD(openAppSettings) {
   [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
 }
 
+RCT_EXPORT_METHOD(openGeneralSettings) {
+  [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
+}
+
+RCT_EXPORT_METHOD(openLocationSettings) {
+  [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
+}
 @end

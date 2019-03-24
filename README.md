@@ -65,7 +65,9 @@ import OpenSettings from 'react-native-open-settings';
 
 And then, where you want to open the settings, just do
 ```javascript
-OpenSettings.openSettings()
+OpenSettings.openAppSettings()
+OpenSettings.openGeneralSettings()
+OpenSettings.openLocationSettings()
 ```
 
 Have fun!
